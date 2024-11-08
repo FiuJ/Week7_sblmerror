@@ -32,8 +32,9 @@ fun soal1(
 
     Column (
         modifier = Modifier
-            .padding(top = 40.dp, start = 20.dp, end = 20.dp)
+            .background(Color.White)
             .fillMaxWidth()
+            .padding(top = 40.dp, start = 20.dp, end = 20.dp)
     ){
         Row {
             Text(
