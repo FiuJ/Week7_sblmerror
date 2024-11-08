@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class RestaurantContainer {
 
-    private val BASE_URL = "http://192.168.43.222/"
+    private val BASE_URL = "http://10.0.0/"
 
     private val retrofit = Retrofit.Builder()
         .addConverterFactory(GsonConverterFactory.create())

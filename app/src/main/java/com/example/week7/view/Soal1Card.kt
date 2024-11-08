@@ -26,7 +26,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.week7.R
-import com.example.week7.data.DataSource
 import com.example.week7.model.Result
 import com.example.week7.viewmodel.RestaurantListViewModel
 
