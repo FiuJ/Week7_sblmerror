@@ -2,7 +2,6 @@ package com.example.week7.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.week7.model.Restaurant
 import com.example.week7.model.Result
 import com.example.week7.repository.RestaurantContainer
 import kotlinx.coroutines.flow.MutableStateFlow

@@ -1,13 +1,12 @@
 package com.example.week7.repository
 
 
-import com.example.week7.model.Restaurant
 import com.example.week7.model.Result
 import com.example.week7.service.RestaurantService
 
 class RestaurantRepositories(private val restaurantService: RestaurantService){
     suspend fun getAllRestaurant(): List<Result> {
-        val listResult = restaurantService.getAllRestaurant().results
+        val listResult = restaurantService.getAllRestaurant()
 
         return listResult
     }
